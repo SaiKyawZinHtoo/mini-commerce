@@ -41,7 +41,7 @@ const OrderConfirmation = () => {
         open={open}
         autoHideDuration={6000}
         onClose={() => setOpen(false)}
-        anchorOrigin={{horizontal: "right", vertical: "bottom"}}
+        anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
       >
         <Alert severity="success" sx={{ width: "100%" }}>
           Order has been Cancelled !
