@@ -1,7 +1,7 @@
 interface Config {
   apiBaseUrl: string;
-  googleClientId: string
-  googleClientSecret: string
+  googleClientId: string;
+  googleClientSecret: string;
 }
 
 export const config: Config = {
